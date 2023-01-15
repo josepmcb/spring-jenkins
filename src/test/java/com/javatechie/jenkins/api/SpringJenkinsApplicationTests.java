@@ -1,7 +1,6 @@
 package com.javatechie.jenkins.api;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.log;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -16,6 +15,7 @@ class SpringJenkinsApplicationTests {
 	void contextLoads() {
 
 		log.info("Test case executing...");
+		log.info("Test case executing segon missatge...");
 		assertEquals(true, true);
 	}
 
